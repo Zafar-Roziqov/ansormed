@@ -1,0 +1,246 @@
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/open-sans-v34-latin-regular.woff2") format("woff2"),
+       url("./fonts/open-sans-v34-latin-regular.woff") format("woff");
+}
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-display: swap;
+  src: url("./fonts/open-sans-v34-latin-700.woff2") format("woff2"),
+       url("./fonts/open-sans-v34-latin-700.woff") format("woff");
+}
+
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 700;
+  margin: 0;
+}
+/* start header  */
+.site__header {
+}
+.container {
+  width: 1090px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.box__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.site__logotip {
+}
+.nav__list {
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+.nav__item {
+  margin-right: 32px;
+  list-style: none;
+}
+.nav__item__add {
+  margin-right: 0;
+}
+.nav__link {
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #222;
+}
+.header__button {
+  display: inline-block;
+  font-size: 15px;
+  line-height: 22px;
+  padding-top: 12px;
+  padding-right: 24px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  background-color: #de2e54;
+  border: 2px solid #de2e54;
+  border-radius: 8px;
+}
+/* end header */
+
+/* start main  */
+.site__main {
+  /* start section  */
+}
+.site__hero {
+  background-color: #0eb4c1;
+}
+.hero__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding-top: 29px; */
+}
+.site__title__h1 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0)
+
+}
+.davolash__box {
+  width: 500px;
+}
+.davolash__title {
+  font-size: 36px;
+  line-height: 43px;
+  margin-top: 0;
+  margin-bottom: 16px;
+  color: #fff;
+}
+.davolash__text {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  margin-top: 0;
+  margin-bottom: 36px;
+  color: #fff;
+}
+.site__hero__img {
+}
+/* end section  */
+
+/* start section  */
+.xizmatlar__section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.xizmatlar__title {
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+}
+.xizmatlar__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 60px;
+  padding-left: 0;
+}
+.xizmatlar__item {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-bottom: 80px;
+}
+.xizmatlar__item__add {
+  margin-bottom: 0;
+}
+.xizmatlat__img {
+  margin-right: 64px;
+}
+.xizmatlar__box {
+  width: 600px;
+}
+.xixmatlar__box__title {
+  font-size: 24px;
+  line-height: 29px;
+  margin-top: 0;
+  margin-bottom: 24px;
+  color: #222;
+}
+.xizmatlar__box__text {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #444;
+}
+.button__box__add {
+  display: flex;
+  justify-content: center;
+}
+/* end section  */
+
+/* start section  */
+.section__qabul {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  background-color: #0eb4c1;
+}
+.qabul__title {
+  font-size: 36px;
+  line-height: 43px;
+  margin-top: 0;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #fff;
+}
+.murojaat__uchun__box {
+  display: flex;
+  justify-content: center;
+}
+.qabul__link {
+  display: inline-block;
+  font-size: 15px;
+  line-height: 18px;
+  margin-right: 40px;
+  padding-top: 12px;
+  padding-right: 24px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 8px;
+}
+/* end section  */
+/* end main  */
+.site__footer {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background-color: #222;
+}
+.footer__box {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__logotip {
+}
+.footer__list {
+  display: flex;
+  padding-left: 0;
+}
+.footer__item {
+  margin-right: 32px;
+  list-style: none;
+}
+.footer__item__add {
+  margin-right: 0;
+}
+.footer__link {
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+}
